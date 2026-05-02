@@ -2,7 +2,7 @@
 
 A quadruped robot inspired by Boston Dynamics Spot, built from scratch as part of a bachelor project at the Institute for Robotics and Cognitive Systems, University of Lübeck.
 
-![Nova Spot Micro](robot.jpg)
+![Nova Spot Micro](images/spot.PNG)
 
 ## What We Built
 
