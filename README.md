@@ -34,6 +34,5 @@ Instead of a physical controller, the robot hosts its own Wi-Fi access point. Co
 - **Key ICs**: PCA9865 PWM controller (I2C), MPU6050 IMU (I2C)
 
 ## Contributors
-Lukas Bruns, Yasin Kirschstein
 
 Lukas Bruns & Yasin Kirschstein — University of Lübeck, supervised by Prof. Dr. Floris Ernst
