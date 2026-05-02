@@ -6,7 +6,7 @@ A quadruped robot inspired by Boston Dynamics Spot, built from scratch as part o
 
 ## What We Built
 
-The robot is a fully functional four-legged platform based on the open-source [Spot Micro](https://spotmicroai.readthedocs.io/) design. The focus of our work was on the complete hardware build and a significant electronics redesign — consolidating the original two-microcontroller architecture down to a single **Arduino Nano RP2040**, simplifying both the wiring and the codebase, and replacing the PS2 controller with a Wi-Fi web interface.
+The robot is a fully functional four-legged platform based on the open-source [Spot Micro](https://spotmicroai.readthedocs.io/) design. The focus of our work was on the complete hardware build and a significant electronics redesign. Consolidating the original two-microcontroller architecture down to a single **Arduino Nano RP2040**, simplifying both the wiring and the codebase, and replacing the PS2 controller with a Wi-Fi web interface.
 
 ## Hardware
 
@@ -18,9 +18,7 @@ The robot is a fully functional four-legged platform based on the open-source [S
 
 ## Electronics Redesign
 
-The original design splits control between a Teensy 4.0 (master) and an Arduino Nano (slave). We eliminated the Teensy entirely and ran the full control stack on a single **Arduino Nano RP2040**, which offers dual-core ARM Cortex-M0+, built-in Wi-Fi/Bluetooth, a 6-axis IMU, and TinyML support — enough headroom for all robot functions in one board.
-
-The previous group's PCB was wired for the Teensy and couldn't be reused, so we designed and soldered a new one from scratch using JST connectors and Wago terminals for a clean, modifiable layout.
+The original design splits control between a Teensy 4.0 (master) and an Arduino Nano (slave). We eliminated the Teensy entirely and ran the full control stack on a single **Arduino Nano RP2040**, which offers dual-core ARM Cortex-M0+, built-in Wi-Fi/Bluetooth, a 6-axis IMU, and TinyML support, which is enough headroom for all robot functions in one board.
 
 ## Control
 
